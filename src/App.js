@@ -1,10 +1,12 @@
-import { Canvas } from '@react-three/fiber';
-import { Sky } from '@react-three/drei';
 import { Physics } from '@react-three/cannon';
-import { Ground } from './components/ground';
-import { Player } from './components/player';
-import { FPV } from './components/FPV';
-import { Blocks } from './components/blocks';
+import { Sky } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+import { Ground } from './components/ground'
+import { Player } from './components/player'
+import { FPV } from './components/FPV'
+import { Blocks } from './components/blocks'
+import { BlockSelectMenu } from './components/blockselect';
+import { Menu } from './components/menu';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         </Physics>
       </Canvas>
       <div className='absolute centered cursor'>+</div>
+      <BlockSelectMenu />
+      <Menu />
     </>
   );
 }

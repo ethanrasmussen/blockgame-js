@@ -10,7 +10,8 @@ export const Block = ({position, texture}) => {
     }))
     const [isHovered, setIsHovered] = useState(false)
 
-    const [addBlock, delBlock] = useStore((state) => [state.addBlock, state.delBlock])
+    const addBlock  = useStore(s => s.addBlock)
+    const delBlock = useStore(s => s.delBlock)
 
     const activeTexture = textures[texture + 'Texture']
 

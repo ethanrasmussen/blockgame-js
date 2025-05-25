@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from "react"
 function keyAction(key) {
     const keyMap = {
         KeyW: 'moveForward',
-        Keys: 'moveBackward',
+        KeyS: 'moveBackward',
         KeyA: 'moveLeft',
         KeyD: 'moveRight',
         Space: 'jump',

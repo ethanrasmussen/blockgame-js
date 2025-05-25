@@ -57,7 +57,6 @@ export const Block = ({position, texture}) => {
                 map={activeTexture}
                 attach='material'
                 transparent={true}
-                opacity={texture === 'glass' ? 0.6 : 1}
                 color={isHovered ? 'grey': 'white'}
             />
         </mesh>

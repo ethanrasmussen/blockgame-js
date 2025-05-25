@@ -11,13 +11,3 @@ export {
 	woodImg,
 	logImg,
 }
-
-// const images = {
-// 	dirtImg,
-// 	grassImg,
-// 	glassImg,
-// 	woodImg,
-// 	logImg,
-// }
-
-// export default images

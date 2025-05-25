@@ -52,3 +52,16 @@ body {
 .cursor {
   color: white;
 }
+
+.menu {
+  top: 0px;
+  left: 10px;
+}
+
+.selection-menu {
+  transform: scale(5);
+}
+
+.selection-menu img.active {
+  border: 2px solid red;
+}

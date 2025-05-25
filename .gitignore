@@ -25,3 +25,4 @@ yarn-error.log*
 # other
 *.md
 package-lock.json
+desktop.ini

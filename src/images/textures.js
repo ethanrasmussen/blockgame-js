@@ -1,5 +1,4 @@
 import { NearestFilter, TextureLoader, RepeatWrapping } from 'three'
-// import { NearestFilter, planeGeometry, RepeatWrapping } from "three"
 import {
     dirtImg,
 	grassImg,
@@ -16,10 +15,6 @@ const logTexture = new TextureLoader().load(logImg)
 
 const groundTexture = new TextureLoader().load(grassImg)
 
-// const textures = [dirtTexture, grassTexture, glassTexture, woodTexture, logTexture, groundTexture]
-// textures.array.forEach(element => {
-//     element.magFilter = NearestFilter;
-// });
 dirtTexture.magFilter = NearestFilter;
 logTexture.magFilter = NearestFilter;
 grassTexture.magFilter = NearestFilter;

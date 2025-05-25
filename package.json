@@ -1,0 +1,40 @@
+{
+  "name": "blockgame-js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/cannon": "latest",
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "nanoid": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "three": "latest",
+    "zustand": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "latest"
+  }
+}

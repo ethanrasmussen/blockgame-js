@@ -23,11 +23,11 @@ export const useKeyboard = () => {
         moveLeft: false,
         moveRight: false,
         jump: false,
-        tx1: false,
-        tx2: false,
-        tx3: false,
-        tx4: false,
-        tx5: false
+        dirt: false,
+        grass: false,
+        glass: false,
+        wood: false,
+        log: false
     })
 
     const handleKeyDown = useCallback((e) => {

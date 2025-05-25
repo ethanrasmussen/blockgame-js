@@ -21,7 +21,14 @@ export const useStore = create((set) => ({
             ]
         }))
     },
-    delBlock: () => {},
+    delBlock: (x,y,z) => {
+        set((prev) => ({
+            blocks: prev.blocks.filter(block => {
+                const [X,Y,Z] = block.pos
+                return X !== x || Y !== y || Z !== z
+            })
+        }))
+    },
     setTexture: () => {},
     saveWorld: () => {},
     resetWorld: () => {}
